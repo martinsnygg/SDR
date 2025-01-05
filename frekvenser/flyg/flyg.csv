@@ -1,94 +1,81 @@
-# Tags
-# Comment
-# --- Emergency & Common ---
-121500000,AM,GUARD | International Air Distress
-123100000,AM,SAR Common | Search And Rescue Operations
-123450000,AM,Pilots Chat | Air-to-Air
-127900000,AM,MET | Weather Information Common
+# Tags: Emergency, Civil, Military, ATIS, Approach, Tower, Ground, Ops
+# Comment: Swedish aviation frequencies with tags and colors
 
-# --- Major Airports ---
-119630000,AM,ESSA APP | Arlanda Approach
-119505000,AM,ESSA TWR | Arlanda Tower RWY 01L/19R West
-120505000,AM,ESSA APP | Arlanda Approach East
-119005000,AM,ESSA ATIS ARR | Arlanda ATIS Arrival
-121630000,AM,ESSA ATIS DEP | Arlanda ATIS Departure
-121830000,AM,ESSA DEL | Arlanda Delivery
-121705000,AM,ESSA GND | Arlanda Ground
+[Emergency]
+121500000,AM,#FF0000,GUARD | International Air Distress
+123100000,AM,#FF0000,SAR Common | Search And Rescue
+123450000,AM,#FF4400,Pilots Chat | Air-to-Air
+127900000,AM,#FF4400,MET | Weather Common
 
-118105000,AM,ESSB TWR | Bromma Tower Primary
-120155000,AM,ESSB APP | Bromma Approach
-122455000,AM,ESSB ATIS | Bromma ATIS
-121605000,AM,ESSB GND | Bromma Ground
+[ESSA_Arlanda]
+119630000,AM,#0088FF,ESSA APP | Arlanda Approach
+119505000,AM,#00FF00,ESSA TWR | Tower RWY 01L/19R West
+120505000,AM,#0088FF,ESSA APP | Approach East
+119005000,AM,#FFFF00,ESSA ATIS ARR | ATIS Arrival
+121630000,AM,#FFFF00,ESSA ATIS DEP | ATIS Departure
+121830000,AM,#FF8800,ESSA DEL | Delivery
+121705000,AM,#00AAFF,ESSA GND | Ground
 
-118605000,AM,ESGG TWR | Landvetter Tower Primary
-120125000,AM,ESGG APP | Landvetter Approach
-118375000,AM,ESGG ATIS | Landvetter ATIS
-121605000,AM,ESGG APRON | Landvetter Apron
-121680000,AM,ESGG DEL | Landvetter Delivery
+[ESSB_Bromma]
+118105000,AM,#00FF00,ESSB TWR | Tower Primary
+120155000,AM,#0088FF,ESSB APP | Approach
+122455000,AM,#FFFF00,ESSB ATIS | ATIS
+121605000,AM,#00AAFF,ESSB GND | Ground
 
-# --- Military Airfields ---
-118800000,AM,SAAB TWR | Linköping Tower Primary
-119000000,AM,ESCF PAR | Malmen Precision Approach
-119730000,AM,ESCF APP | Linköping/SAAB Approach
-121050000,AM,ESCF TWR | Malmen Tower
-134400000,AM,ESCF Training | "Valpen" Training Ops
+[ESGG_Landvetter]
+118605000,AM,#00FF00,ESGG TWR | Tower Primary
+120125000,AM,#0088FF,ESGG APP | Approach
+118375000,AM,#FFFF00,ESGG ATIS | ATIS
+121605000,AM,#00AAFF,ESGG APRON | Apron
+121680000,AM,#FF8800,ESGG DEL | Delivery
 
-119200000,AM,F16 TWR | Uppsala Primary
-134205000,AM,F16 APP | Uppsala Approach
-119000000,AM,F16 PAR | Uppsala Precision Approach
+[Military_Fields]
+118800000,AM,#FF00FF,SAAB TWR | Linköping Primary
+119000000,AM,#FF44FF,ESCF PAR | Malmen Precision Approach
+119730000,AM,#0088FF,ESCF APP | Linköping/SAAB Approach
+121050000,AM,#00FF00,ESCF TWR | Malmen Tower
+134400000,AM,#88FF88,ESCF Training | "Valpen" Training Ops
 
-119200000,AM,F17 TWR | Ronneby Primary
-129900000,AM,F17 APP | Ronneby Approach
-134100000,AM,F17 PAR | Ronneby Precision Approach
+[Military_Ops]
+130500000,AM,#FF00FF,Swedish Air Force Common
+138275000,NFM,#FF00FF,Air Force Operations 1
+138750000,NFM,#FF00FF,Air Force Operations 2
+139150000,NFM,#FF00FF,Air Force Operations 3
+244800000,NFM,#FF88FF,STRIL | Air Defense Network
+255400000,NFM,#FF88FF,STRIL | Air Defense Network
+302550000,NFM,#FF88FF,STRIL | Air Defense Network
 
-119200000,AM,Vidsel APP | Test Range Primary
-119200000,AM,Vidsel TWR | Test Range Tower
+[Sweden_Control]
+128630000,AM,#44FFFF,Sweden Control | Class-G Airspace
+119665000,AM,#44FFFF,Regional East Control
+120630000,AM,#44FFFF,Regional North Control
+132775000,AM,#44FFFF,ACC West Control
+135025000,AM,#44FFFF,ACC East Control
+120930000,AM,#44FFFF,Regional Central Control
 
-# --- Regional Airports ---
-127055000,AM,ESMT TWR | Halmstad Tower Primary
-135055000,AM,ESMT APP | Halmstad Approach
-122255000,AM,ESND TWR | Örnsköldsvik Tower
-118155000,AM,ESGT TWR | Trollhättan Tower
-122055000,AM,ESPC TWR | Skellefteå Tower
+[Regional]
+127055000,AM,#00FF00,ESMT TWR | Halmstad Tower Primary
+122255000,AM,#00FF00,ESND TWR | Örnsköldsvik Tower
+118155000,AM,#00FF00,ESGT TWR | Trollhättan Tower
+122055000,AM,#00FF00,ESPC TWR | Skellefteå Tower
 
-# --- ATIS Services ---
-119005000,AM,Arlanda ATIS ARR | Weather & Landing Info
-121630000,AM,Arlanda ATIS DEP | Weather & Departure Info
-118375000,AM,Landvetter ATIS | Weather Information
-122455000,AM,Bromma ATIS | Weather Information
-126280000,AM,Skavsta ATIS | Weather Information
-127405000,AM,Sundsvall ATIS | Weather Information
-129280000,AM,Sturup ATIS | Weather Information
+[ATIS_Services]
+119005000,AM,#FFFF00,Arlanda ATIS ARR | Weather & Landing
+121630000,AM,#FFFF00,Arlanda ATIS DEP | Weather & Departure
+118375000,AM,#FFFF00,Landvetter ATIS | Weather
+122455000,AM,#FFFF00,Bromma ATIS | Weather
+126280000,AM,#FFFF00,Skavsta ATIS | Weather
+127405000,AM,#FFFF00,Sundsvall ATIS | Weather
+129280000,AM,#FFFF00,Sturup ATIS | Weather
 
-# --- Military Operations ---
-126600000,AM,NATO Common | NATO Operations
-130500000,AM,Swedish Air Force Common
-138275000,NFM,Air Force Operations 1
-138750000,NFM,Air Force Operations 2
-139150000,NFM,Air Force Operations 3
-141875000,NFM,Air Rescue Common
-142150000,NFM,Air Rescue Operations
-143500000,NFM,Swedish Air Force Ops
-244800000,NFM,STRIL | Air Defense Network
-255400000,NFM,STRIL | Air Defense Network
-302550000,NFM,STRIL | Air Defense Network
-
-# --- Area Control ---
-128630000,AM,Sweden Control | Class-G Airspace
-119665000,AM,Regional East Control
-120630000,AM,Regional North Control
-132775000,AM,ACC West Control
-135025000,AM,ACC East Control
-120930000,AM,Regional Central Control
-
-# --- Approach Areas ---
-119630000,AM,Stockholm APP North
-120505000,AM,Stockholm APP South
-120125000,AM,Göteborg APP
-119405000,AM,Stockholm TMA
-126155000,AM,Visby APP
-127525000,AM,Sweden Control Sector 9
-128625000,AM,Sweden Control Sector 5
-129125000,AM,Örnsköldsvik APP
-130400000,AM,Uppsala APP
-131125000,AM,Sweden Control Sector 3
+[Approach_Areas]
+119630000,AM,#0088FF,Stockholm APP North
+120505000,AM,#0088FF,Stockholm APP South
+120125000,AM,#0088FF,Göteborg APP
+119405000,AM,#0088FF,Stockholm TMA
+126155000,AM,#0088FF,Visby APP
+127525000,AM,#0088FF,Sweden Control Sector 9
+128625000,AM,#0088FF,Sweden Control Sector 5
+129125000,AM,#0088FF,Örnsköldsvik APP
+130400000,AM,#0088FF,Uppsala APP
+131125000,AM,#0088FF,Sweden Control Sector 3

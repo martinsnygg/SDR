@@ -1,71 +1,74 @@
-# Tags
-# Comment
-# --- HF Beacons ---
-28286000,CW,Beacon - SM3KDR | Krokom
-28298000,CW,Beacon - SK7GH/B | Värnamo
+# Tags: Beacons, VHF, UHF, FM, Digital, Repeater, Sat, HF
+# Comment: Swedish amateur radio frequencies with tags and colors
 
-# --- 10m Band ---
-29170000,FM,Link - SM5RVH | Nyköping
-29660000,FM,Repeater - SK5RHT | RH5 | Linköping
-29680000,FM,Repeater - SK6RFQ | RH7 | Göteborg
-29690000,FM,Repeater - SM6VBT/R | RH8 | Göteborg
+[Beacons_10m]
+28286000,CW,#FF8800,Beacon - SM3KDR | Krokom
+28298000,CW,#FF8800,Beacon - SK7GH/B | Värnamo
 
-# --- 6m Band ---
-50052000,CW,Beacon - SK2CP/B | Kiruna - Esrange
-50460000,CW,Beacon - SK6EI/B | Skövde
-50468000,CW,Beacon - SK3SIX | Östersund
-51470000,FM,Link - SM5RVH | Nyköping
-51850000,FM,Repeater - SK7REE | RF85 | Söderåsen
-51870000,FM,Repeater - SK6RFQ | RF87 | Göteborg
-51910000,FM,Repeater - SK7RIH | RF91 | Oskarshamn
+[10m_Band]
+29170000,FM,#00FF00,Link - SM5RVH | Nyköping
+29660000,FM,#00FF00,Repeater - SK5RHT | RH5 | Linköping
+29680000,FM,#00FF00,Repeater - SK6RFQ | RH7 | Göteborg
+29690000,FM,#00FF00,Repeater - SM6VBT/R | RH8 | Göteborg
 
-# --- 2m Band Beacons ---
-144406000,CW,Beacon - SK6VHF | Tjörn
-144412000,PI4/CW,Beacon - SK4MPI | Borlänge
-144421000,CW,Beacon - SK3VHF | Östersund
-144447000,CW,Beacon - SK1VHF | Klintehamn
-144457000,CW,Beacon - SK2VHF | Vindeln
-144461000,CW,Beacon - SK7VHF | Sjöbo
+[Beacons_6m]
+50052000,CW,#FFA500,Beacon - SK2CP/B | Kiruna - Esrange
+50460000,CW,#FFA500,Beacon - SK6EI/B | Skövde
+50468000,CW,#FFA500,Beacon - SK3SIX | Östersund
 
-# --- 2m Band FM Simplex ---
-145500000,FM,Calling frequency | Anropsfrekvens
-145525000,FM,Local chat | Lokalsnack
-145550000,FM,Mobile chat | Mobil QSO
+[6m_Repeaters]
+51470000,FM,#4488FF,Link - SM5RVH | Nyköping
+51850000,FM,#4488FF,Repeater - SK7REE | RF85 | Söderåsen
+51870000,FM,#4488FF,Repeater - SK6RFQ | RF87 | Göteborg
+51910000,FM,#4488FF,Repeater - SK7RIH | RF91 | Oskarshamn
 
-# --- 2m Band Popular Repeaters ---
-145600000,FM,Repeater - SK2AZ/R | RV48 | Piteå
-145625000,FM,Repeater - SK7RFL | RV50 | Kalmar/Öland
-145675000,FM,Repeater - SK4HV/R | RV54 | Hagfors
-145712500,FM,Repeater - SK4TL/R | RV57 | Örebro
-145725000,FM,Repeater - SK3RFG | RV58 | Sundsvall
-145750000,FM,Repeater - SK7RFJ | RV60 | Karlskrona
-145775000,FM,Repeater - SK1RGU | RV62 | Visby
+[Beacons_2m]
+144406000,CW,#FF4400,Beacon - SK6VHF | Tjörn
+144412000,PI4/CW,#FF4400,Beacon - SK4MPI | Borlänge
+144421000,CW,#FF4400,Beacon - SK3VHF | Östersund
+144447000,CW,#FF4400,Beacon - SK1VHF | Klintehamn
+144457000,CW,#FF4400,Beacon - SK2VHF | Vindeln
+144461000,CW,#FF4400,Beacon - SK7VHF | Sjöbo
 
-# --- 70cm Band Beacons ---
-432405000,CW,Beacon - SK1UHF | Klintehamn
-432412000,CW,Beacon - SK6UHF | Varberg
-432436000,CW,Beacon - SK6YH/B | Tjörn
-432455000,CW,Beacon - SK3UHF | Nordingrå
+[2m_FM_Simplex]
+145500000,FM,#00FF88,Calling frequency | Anropsfrekvens
+145525000,FM,#00FF88,Local chat | Lokalsnack
+145550000,FM,#00FF88,Mobile chat | Mobil QSO
 
-# --- 70cm Band Digital ---
-434512500,DMR,Repeater - SK5RYG | RU361 | Linköping
-434525000,DMR/D-Star,Repeater - SM3YFX | RU362 | Föllinge
-434537500,DMR,Repeater - SK6DG | RU363 | Alingsås
-434550000,DMR/D-Star/C4FM,Repeater - SK7RFL | RU364 | Öland
-434575000,D-Star,Repeater - SK3LH-B | RU366 | Örnsköldsvik
+[2m_Repeaters]
+145600000,FM,#0088FF,Repeater - SK2AZ/R | RV48 | Piteå
+145625000,FM,#0088FF,Repeater - SK7RFL | RV50 | Kalmar/Öland
+145675000,FM,#0088FF,Repeater - SK4HV/R | RV54 | Hagfors
+145712500,FM,#0088FF,Repeater - SK4TL/R | RV57 | Örebro
+145725000,FM,#0088FF,Repeater - SK3RFG | RV58 | Sundsvall
+145750000,FM,#0088FF,Repeater - SK7RFJ | RV60 | Karlskrona
+145775000,FM,#0088FF,Repeater - SK1RGU | RV62 | Visby
 
-# --- 23cm Band ---
-1296000000,SSB,Primary calling frequency | Primär anropsfrekvens
-1297000000,FM,FM calling frequency | FM anropsfrekvens
+[70cm_Beacons]
+432405000,CW,#FF00FF,Beacon - SK1UHF | Klintehamn
+432412000,CW,#FF00FF,Beacon - SK6UHF | Varberg
+432436000,CW,#FF00FF,Beacon - SK6YH/B | Tjörn
+432455000,CW,#FF00FF,Beacon - SK3UHF | Nordingrå
 
-# --- Satellite Frequencies ---
-145800000,FM,ISS Downlink | Voice & SSTV
-437800000,FM,Popular CubeSat frequency
-145880000,FM,AMSAT transponder downlink
+[70cm_Digital]
+434512500,DMR,#8800FF,Repeater - SK5RYG | RU361 | Linköping
+434525000,DMR/D-Star,#8800FF,Repeater - SM3YFX | RU362 | Föllinge
+434537500,DMR,#8800FF,Repeater - SK6DG | RU363 | Alingsås
+434550000,DMR/D-Star/C4FM,#8800FF,Repeater - SK7RFL | RU364 | Öland
+434575000,D-Star,#8800FF,Repeater - SK3LH-B | RU366 | Örnsköldsvik
 
-# --- Special Interest ---
-144800000,WSPR,WSPR reception frequency
-144174800,FT8,FT8 digital mode
-145275000,APRS,APRS packet network
-432500000,DMR,Regional hotspots
-433500000,FM,Local hotspots
+[23cm_Band]
+1296000000,SSB,#FF8844,Primary calling frequency
+1297000000,FM,#FF8844,FM calling frequency
+
+[Satellites]
+145800000,FM,#00FFFF,ISS Downlink | Voice & SSTV
+437800000,FM,#00FFFF,Popular CubeSat frequency
+145880000,FM,#00FFFF,AMSAT transponder downlink
+
+[Digital_Modes]
+144800000,WSPR,#88FF00,WSPR reception frequency
+144174800,FT8,#88FF00,FT8 digital mode
+145275000,APRS,#88FF00,APRS packet network
+432500000,DMR,#88FF00,Regional hotspots
+433500000,FM,#88FF00,Local hotspots

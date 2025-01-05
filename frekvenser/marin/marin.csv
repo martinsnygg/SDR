@@ -1,32 +1,68 @@
-# Tags
-# Comment
-156050000,NFM,Kanal 01 - Duplex | Ship: 156.050 - Coast: 160.650
-156100000,NFM,Kanal 02 - Duplex | Ship: 156.100 - Coast: 160.700
-156150000,NFM,Kanal 03 - Duplex | Ship: 156.150 - Coast: 160.750
-156200000,NFM,Kanal 04 - Duplex | Ship: 156.200 - Coast: 160.800
-156250000,NFM,Kanal 05 - Duplex | Ship: 156.250 - Coast: 160.850
-156300000,NFM,Kanal 06 - Simplex | Ship-to-ship safety | Isbrytare/Sjöräddning
-156350000,NFM,Kanal 07 - Duplex | Ship: 156.350 - Coast: 160.950
-156400000,NFM,Kanal 08 - Simplex | Ship-to-ship commercial
-156450000,NFM,Kanal 09 - Simplex | VTS/Brovakter
-156500000,NFM,Kanal 10 - Simplex | Commercial
-156550000,NFM,Kanal 11 - Simplex | VTS/Hamn
-156600000,NFM,Kanal 12 - Simplex | VTS/Hamn
-156650000,NFM,Kanal 13 - Simplex | Bridge-to-bridge | Navigational safety
-156700000,NFM,Kanal 14 - Simplex | VTS/Hamn
-156750000,NFM,Kanal 15 - Simplex | Low power on-board communications
-156800000,NFM,Kanal 16 - Simplex | DISTRESS SAFETY AND CALLING | NÖDKANAL
-156850000,NFM,Kanal 17 - Simplex | State controlled
-156900000,NFM,Kanal 18 - Duplex | Ship: 156.900 - Coast: 161.500
-156950000,NFM,Kanal 19 - Duplex | Ship: 156.950 - Coast: 161.550
-157000000,NFM,Kanal 20 - Duplex | Ship: 157.000 - Coast: 161.600
-157050000,NFM,Kanal 21 - Duplex | Ship: 157.050 - Coast: 161.650
-157100000,NFM,Kanal 22 - Duplex | Ship: 157.100 - Coast: 161.700
-157150000,NFM,Kanal 23 - Duplex | Ship: 157.150 - Coast: 161.750
-157200000,NFM,Kanal 24 - Duplex | Ship: 157.200 - Coast: 161.800
-157250000,NFM,Kanal 25 - Duplex | Ship: 157.250 - Coast: 161.850
-157300000,NFM,Kanal 26 - Duplex | Ship: 157.300 - Coast: 161.900
-157350000,NFM,Kanal 27 - Duplex | Ship: 157.350 - Coast: 161.950
-157400000,NFM,Kanal 28 - Duplex | Ship: 157.400 - Coast: 162.000
-161975000,GMSK,AIS 1 - Automatic Identification System
-162025000,GMSK,AIS 2 - Automatic Identification System
+# Tags: Emergency, VTS, Port, Traffic, SAR, Working, Coast, Weather, Navy, AIS
+# Comment: Marine VHF frequencies with tags and colors
+
+[Emergency]
+156800000,FM,#FF0000,CH16 | DISTRESS SAFETY AND CALLING | Nödkanal
+156525000,FM,#FF0000,CH70 | DSC | Digital Selective Calling
+156450000,FM,#FF4400,CH09 | Alternate calling channel
+161975000,GMSK,#FF8800,AIS1 | Ship tracking primary
+162025000,GMSK,#FF8800,AIS2 | Ship tracking secondary
+
+[VTS_Traffic]
+156700000,FM,#00FFFF,CH14 | VTS Primary | Traffic Control
+156600000,FM,#00FFFF,CH12 | VTS/Port Operations
+156675000,FM,#00FFFF,CH73 | Stockholm VTS
+156650000,FM,#00FFFF,CH13 | Bridge-to-Bridge Navigation
+
+[SAR_Operations]
+156300000,FM,#FF00FF,CH06 | Ship-Ship Safety | Inter-ship Safety Comms
+156450000,FM,#FF00FF,CH09 | SAR Operations
+161800000,FM,#FF00FF,CH24 | Coast Guard
+157100000,FM,#FF00FF,CH22 | Coast Guard Operations
+
+[Port_Operations]
+156425000,FM,#00FF88,CH68 | Södertälje VTS/Port
+156450000,FM,#00FF88,CH09 | Port Operations
+156625000,FM,#00FF88,CH72 | Port Internal Communications
+156725000,FM,#00FF88,CH74 | Port Operations/Pilots
+
+[Coast_Radio]
+161750000,FM,#0088FF,CH23 | Stockholm Radio
+161800000,FM,#0088FF,CH24 | Coast Station
+161850000,FM,#0088FF,CH25 | Coast Station
+161950000,FM,#0088FF,CH27 | Coast Station
+
+[Ship_Ship]
+156400000,FM,#44FF44,CH08 | Commercial inter-ship
+156450000,FM,#44FF44,CH09 | Commercial inter-ship
+156500000,FM,#44FF44,CH10 | Commercial inter-ship
+156550000,FM,#44FF44,CH11 | Commercial inter-ship
+
+[Weather_Info]
+156250000,FM,#FFFF00,CH05 | Weather broadcasts
+156850000,FM,#FFFF00,CH17 | Weather broadcasts
+157100000,FM,#FFFF00,CH22 | Weather reports
+161750000,FM,#FFFF00,CH23 | Weather broadcasts
+
+[Working_Channels]
+156900000,FM,#88FF88,CH18 | Working channel
+156950000,FM,#88FF88,CH19 | Working channel
+157000000,FM,#88FF88,CH20 | Working channel
+157050000,FM,#88FF88,CH21 | Working channel
+
+[Ferry_Traffic]
+156525000,FM,#FF88FF,CH70 | Ferry operations
+157000000,FM,#FF88FF,CH20 | Ferry traffic control
+156475000,FM,#FF88FF,CH69 | Ferry internal comms
+156575000,FM,#FF88FF,CH71 | Ferry-port communications
+
+[Pleasure_Craft]
+156500000,FM,#00AAFF,L1 | Leisure vessels
+156525000,FM,#00AAFF,L2 | Leisure vessels
+156550000,FM,#00AAFF,L3 | Leisure vessels
+
+[Navy_Ops]
+156375000,FM,#8800FF,CH67 | Navy Operations
+156725000,FM,#8800FF,CH74 | Navy Port Operations
+156775000,FM,#8800FF,CH76 | Navy Internal
+156825000,FM,#8800FF,CH77 | Navy Tactical
