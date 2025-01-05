@@ -1,0 +1,12 @@
+# Tags: Marine, Aviation, Tracking
+# Comment: AIS and ADS-B tracking frequencies with tags and colors
+[Marine]
+161975000,GMSK,#0088FF,AIS Channel A | Primary ship tracking
+162025000,GMSK,#0088FF,AIS Channel B | Secondary ship tracking
+
+[Aviation]
+1090000000,ADS-B,#FF4400,ADS-B Extended Squitter | Main aircraft tracking | Requires 1090 MHz frontend
+978000000,UAT,#FF4400,UAT | US General Aviation only
+1030000000,PSK,#FF8800,Mode S Interrogation | Ground radar
+1090000000,PSK,#FF8800,Mode S Reply | Aircraft transponders
+131550000,AM,#FF8800,ACARS | Aircraft data link
