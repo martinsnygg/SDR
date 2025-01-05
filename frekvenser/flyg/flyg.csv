@@ -1,0 +1,94 @@
+# Tags
+# Comment
+# --- Emergency & Common ---
+121500000,AM,GUARD | International Air Distress
+123100000,AM,SAR Common | Search And Rescue Operations
+123450000,AM,Pilots Chat | Air-to-Air
+127900000,AM,MET | Weather Information Common
+
+# --- Major Airports ---
+119630000,AM,ESSA APP | Arlanda Approach
+119505000,AM,ESSA TWR | Arlanda Tower RWY 01L/19R West
+120505000,AM,ESSA APP | Arlanda Approach East
+119005000,AM,ESSA ATIS ARR | Arlanda ATIS Arrival
+121630000,AM,ESSA ATIS DEP | Arlanda ATIS Departure
+121830000,AM,ESSA DEL | Arlanda Delivery
+121705000,AM,ESSA GND | Arlanda Ground
+
+118105000,AM,ESSB TWR | Bromma Tower Primary
+120155000,AM,ESSB APP | Bromma Approach
+122455000,AM,ESSB ATIS | Bromma ATIS
+121605000,AM,ESSB GND | Bromma Ground
+
+118605000,AM,ESGG TWR | Landvetter Tower Primary
+120125000,AM,ESGG APP | Landvetter Approach
+118375000,AM,ESGG ATIS | Landvetter ATIS
+121605000,AM,ESGG APRON | Landvetter Apron
+121680000,AM,ESGG DEL | Landvetter Delivery
+
+# --- Military Airfields ---
+118800000,AM,SAAB TWR | Linköping Tower Primary
+119000000,AM,ESCF PAR | Malmen Precision Approach
+119730000,AM,ESCF APP | Linköping/SAAB Approach
+121050000,AM,ESCF TWR | Malmen Tower
+134400000,AM,ESCF Training | "Valpen" Training Ops
+
+119200000,AM,F16 TWR | Uppsala Primary
+134205000,AM,F16 APP | Uppsala Approach
+119000000,AM,F16 PAR | Uppsala Precision Approach
+
+119200000,AM,F17 TWR | Ronneby Primary
+129900000,AM,F17 APP | Ronneby Approach
+134100000,AM,F17 PAR | Ronneby Precision Approach
+
+119200000,AM,Vidsel APP | Test Range Primary
+119200000,AM,Vidsel TWR | Test Range Tower
+
+# --- Regional Airports ---
+127055000,AM,ESMT TWR | Halmstad Tower Primary
+135055000,AM,ESMT APP | Halmstad Approach
+122255000,AM,ESND TWR | Örnsköldsvik Tower
+118155000,AM,ESGT TWR | Trollhättan Tower
+122055000,AM,ESPC TWR | Skellefteå Tower
+
+# --- ATIS Services ---
+119005000,AM,Arlanda ATIS ARR | Weather & Landing Info
+121630000,AM,Arlanda ATIS DEP | Weather & Departure Info
+118375000,AM,Landvetter ATIS | Weather Information
+122455000,AM,Bromma ATIS | Weather Information
+126280000,AM,Skavsta ATIS | Weather Information
+127405000,AM,Sundsvall ATIS | Weather Information
+129280000,AM,Sturup ATIS | Weather Information
+
+# --- Military Operations ---
+126600000,AM,NATO Common | NATO Operations
+130500000,AM,Swedish Air Force Common
+138275000,NFM,Air Force Operations 1
+138750000,NFM,Air Force Operations 2
+139150000,NFM,Air Force Operations 3
+141875000,NFM,Air Rescue Common
+142150000,NFM,Air Rescue Operations
+143500000,NFM,Swedish Air Force Ops
+244800000,NFM,STRIL | Air Defense Network
+255400000,NFM,STRIL | Air Defense Network
+302550000,NFM,STRIL | Air Defense Network
+
+# --- Area Control ---
+128630000,AM,Sweden Control | Class-G Airspace
+119665000,AM,Regional East Control
+120630000,AM,Regional North Control
+132775000,AM,ACC West Control
+135025000,AM,ACC East Control
+120930000,AM,Regional Central Control
+
+# --- Approach Areas ---
+119630000,AM,Stockholm APP North
+120505000,AM,Stockholm APP South
+120125000,AM,Göteborg APP
+119405000,AM,Stockholm TMA
+126155000,AM,Visby APP
+127525000,AM,Sweden Control Sector 9
+128625000,AM,Sweden Control Sector 5
+129125000,AM,Örnsköldsvik APP
+130400000,AM,Uppsala APP
+131125000,AM,Sweden Control Sector 3

@@ -1,0 +1,71 @@
+# Tags
+# Comment
+# --- HF Beacons ---
+28286000,CW,Beacon - SM3KDR | Krokom
+28298000,CW,Beacon - SK7GH/B | Värnamo
+
+# --- 10m Band ---
+29170000,FM,Link - SM5RVH | Nyköping
+29660000,FM,Repeater - SK5RHT | RH5 | Linköping
+29680000,FM,Repeater - SK6RFQ | RH7 | Göteborg
+29690000,FM,Repeater - SM6VBT/R | RH8 | Göteborg
+
+# --- 6m Band ---
+50052000,CW,Beacon - SK2CP/B | Kiruna - Esrange
+50460000,CW,Beacon - SK6EI/B | Skövde
+50468000,CW,Beacon - SK3SIX | Östersund
+51470000,FM,Link - SM5RVH | Nyköping
+51850000,FM,Repeater - SK7REE | RF85 | Söderåsen
+51870000,FM,Repeater - SK6RFQ | RF87 | Göteborg
+51910000,FM,Repeater - SK7RIH | RF91 | Oskarshamn
+
+# --- 2m Band Beacons ---
+144406000,CW,Beacon - SK6VHF | Tjörn
+144412000,PI4/CW,Beacon - SK4MPI | Borlänge
+144421000,CW,Beacon - SK3VHF | Östersund
+144447000,CW,Beacon - SK1VHF | Klintehamn
+144457000,CW,Beacon - SK2VHF | Vindeln
+144461000,CW,Beacon - SK7VHF | Sjöbo
+
+# --- 2m Band FM Simplex ---
+145500000,FM,Calling frequency | Anropsfrekvens
+145525000,FM,Local chat | Lokalsnack
+145550000,FM,Mobile chat | Mobil QSO
+
+# --- 2m Band Popular Repeaters ---
+145600000,FM,Repeater - SK2AZ/R | RV48 | Piteå
+145625000,FM,Repeater - SK7RFL | RV50 | Kalmar/Öland
+145675000,FM,Repeater - SK4HV/R | RV54 | Hagfors
+145712500,FM,Repeater - SK4TL/R | RV57 | Örebro
+145725000,FM,Repeater - SK3RFG | RV58 | Sundsvall
+145750000,FM,Repeater - SK7RFJ | RV60 | Karlskrona
+145775000,FM,Repeater - SK1RGU | RV62 | Visby
+
+# --- 70cm Band Beacons ---
+432405000,CW,Beacon - SK1UHF | Klintehamn
+432412000,CW,Beacon - SK6UHF | Varberg
+432436000,CW,Beacon - SK6YH/B | Tjörn
+432455000,CW,Beacon - SK3UHF | Nordingrå
+
+# --- 70cm Band Digital ---
+434512500,DMR,Repeater - SK5RYG | RU361 | Linköping
+434525000,DMR/D-Star,Repeater - SM3YFX | RU362 | Föllinge
+434537500,DMR,Repeater - SK6DG | RU363 | Alingsås
+434550000,DMR/D-Star/C4FM,Repeater - SK7RFL | RU364 | Öland
+434575000,D-Star,Repeater - SK3LH-B | RU366 | Örnsköldsvik
+
+# --- 23cm Band ---
+1296000000,SSB,Primary calling frequency | Primär anropsfrekvens
+1297000000,FM,FM calling frequency | FM anropsfrekvens
+
+# --- Satellite Frequencies ---
+145800000,FM,ISS Downlink | Voice & SSTV
+437800000,FM,Popular CubeSat frequency
+145880000,FM,AMSAT transponder downlink
+
+# --- Special Interest ---
+144800000,WSPR,WSPR reception frequency
+144174800,FT8,FT8 digital mode
+145275000,APRS,APRS packet network
+432500000,DMR,Regional hotspots
+433500000,FM,Local hotspots

@@ -1,0 +1,85 @@
+# Tags
+# Comment
+# --- Emergency ---
+121500000,AM,International Air Distress | GUARD
+156800000,FM,Marine Distress | VHF Ch 16
+161975000,GMSK,AIS Ship tracking 1
+162025000,GMSK,AIS Ship tracking 2
+
+# --- Public Safety ---
+169800000,POCSAG,Minicall nationwide 1
+161437500,POCSAG,Minicall nationwide 2
+
+# --- CB Radio ---
+26965000,AM/FM/SSB,CB kanal 1
+26975000,AM/FM/SSB,CB kanal 2
+26985000,AM/FM/SSB,CB kanal 3
+27005000,AM/FM/SSB,CB kanal 4
+27015000,AM/FM/SSB,CB kanal 5
+27025000,AM/FM/SSB,CB kanal 6
+27035000,AM/FM/SSB,CB kanal 7
+27055000,AM/FM/SSB,CB kanal 8
+27065000,AM/FM/SSB,CB kanal 9
+27075000,AM/FM/SSB,CB kanal 10
+
+# --- Hunting Radio ---
+30930000,FM,Jaktradio kanal 1
+30940000,FM,Jaktradio kanal 2
+30950000,FM,Jaktradio kanal 3
+30960000,FM,Jaktradio kanal 4
+30970000,FM,Jaktradio kanal 5
+31030000,FM,Jaktradio kanal 6
+31040000,FM,Jaktradio kanal 7
+31050000,FM,Jaktradio kanal 8
+
+# --- PMR446 ---
+446006250,NFM,PMR kanal 1
+446018750,NFM,PMR kanal 2
+446031250,NFM,PMR kanal 3
+446043750,NFM,PMR kanal 4
+446056250,NFM,PMR kanal 5
+446068750,NFM,PMR kanal 6
+446081250,NFM,PMR kanal 7
+446093750,NFM,PMR kanal 8
+
+# --- LPD433 ---
+433075000,NFM,LPD kanal 1
+433100000,NFM,LPD kanal 2
+433125000,NFM,LPD kanal 3
+433150000,NFM,LPD kanal 4
+433175000,NFM,LPD kanal 5
+433200000,NFM,LPD kanal 6
+433225000,NFM,LPD kanal 7
+433250000,NFM,LPD kanal 8
+
+# --- Construction Sites ---
+405881250,FM,Byggradio kanal 1
+405893750,FM,Byggradio kanal 2
+405906250,FM,Byggradio kanal 3
+405918750,FM,Byggradio kanal 4
+405931250,FM,Byggradio kanal 5
+
+# --- Sweden Control Air Traffic ---
+128630000,AM,Sweden Control Class-G Airspace
+119665000,AM,Regional East ATC
+120630000,AM,Regional North ATC
+120930000,AM,Regional Central ATC
+
+# --- Marine VTS & Coast Radio ---
+156600000,FM,VTS/Hamn CH12
+156675000,FM,Stockholm VTS CH73
+156650000,FM,VTS Bridge-to-Bridge CH13
+
+# --- Weather & Time ---
+122600000,AM,Weather Information Service
+60000,AM,Time Signal DCF77
+
+# --- Coast Guard & SAR ---
+123100000,AM,SAR Air Operations
+155650000,FM,Coast Guard Operations
+161800000,FM,Coast Guard Marine Ch 24
+123250000,AM,SAR Land Operations
+
+# --- Public Transport ---
+147362500,POCSAG,Transport & Security
+169362500,FM,Transport Operations
